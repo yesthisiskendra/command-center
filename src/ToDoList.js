@@ -2,7 +2,7 @@ import * as React from 'react';
 import { DataGrid } from '@material-ui/data-grid';
 
 const columns = [
-  { field: 'id', headerName: 'ID', width: 90 },
+  // { field: 'id', headerName: 'ID', width: 90 },
   {
     field: 'firstName',
     headerName: 'First name',
