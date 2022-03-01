@@ -31,6 +31,7 @@ const rows = [
 export default function DataTable() {
   return (
     <div style={{ height: 1000, width: '100%' }}>
+      <h1>Checklist</h1>
       <DataGrid
         rows={rows}
         columns={columns}
